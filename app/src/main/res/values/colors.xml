@@ -46,6 +46,7 @@
     <color name="cardColorRed">#F94172</color>
 
     <!-- color for activity main -->
-
+    <color name="themeColor">#11CFC5</color>
+    <color name="register_bk_color">#11CFC5</color>
 
 </resources>
