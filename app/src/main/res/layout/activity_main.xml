@@ -28,7 +28,7 @@
                 android:layout_gravity="bottom">
             </TextView>
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:src="@drawable/hero">
             </ImageView>
@@ -65,7 +65,7 @@
                     android:layout_alignParentTop="true"
                     android:textSize="25dp"
                     android:textStyle="bold"
-                    android:text="Maths">
+                    android:text="Toán học">
                 </TextView>
             </RelativeLayout>
             <RelativeLayout
@@ -95,7 +95,7 @@
                     android:layout_alignParentTop="true"
                     android:textSize="25dp"
                     android:textStyle="bold"
-                    android:text="Physics">
+                    android:text="Vật lý">
                 </TextView>
             </RelativeLayout>
         </LinearLayout>
@@ -131,7 +131,7 @@
                     android:layout_alignParentTop="true"
                     android:textSize="25dp"
                     android:textStyle="bold"
-                    android:text="Chemistry">
+                    android:text="Hoá học">
                 </TextView>
             </RelativeLayout>
             <RelativeLayout
@@ -161,7 +161,7 @@
                     android:layout_alignParentTop="true"
                     android:textSize="25dp"
                     android:textStyle="bold"
-                    android:text="Biology">
+                    android:text="Sinh học">
                 </TextView>
             </RelativeLayout>
         </LinearLayout>
@@ -197,7 +197,7 @@
                     android:layout_alignParentTop="true"
                     android:textSize="25dp"
                     android:textStyle="bold"
-                    android:text="Geography">
+                    android:text="Địa lý">
                 </TextView>
             </RelativeLayout>
             <RelativeLayout
@@ -227,7 +227,7 @@
                     android:layout_alignParentTop="true"
                     android:textSize="25dp"
                     android:textStyle="bold"
-                    android:text="Politics">
+                    android:text="Chính trị">
                 </TextView>
             </RelativeLayout>
         </LinearLayout>
