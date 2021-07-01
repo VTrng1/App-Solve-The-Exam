@@ -1,4 +1,4 @@
-package com.example.app_sovle_the_exam
+package com.example.app_solve_the_exam
 
 import android.content.Intent
 import android.os.Bundle
