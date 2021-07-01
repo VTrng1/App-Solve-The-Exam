@@ -1,12 +1,14 @@
-package com.example.app_sovle_the_exam
+package com.example.app_solve_the_exam
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 
 
-class LoginActivity : AppCompatActivity() {
+
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_main)
+
     }
 }
