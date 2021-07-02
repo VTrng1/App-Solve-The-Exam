@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294745206483",
+    "project_id": "app-solve-the-exam",
+    "storage_bucket": "app-solve-the-exam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294745206483:android:df0de466bbabc4e7362e26",
+        "android_client_info": {
+          "package_name": "com.example.app_sovle_the_exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294745206483-m6avupiuk0ra5190d90vhgplaak9ebcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlp_FwC4WLd1-kXqyPibSR-oWg7MeOHoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294745206483-m6avupiuk0ra5190d90vhgplaak9ebcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

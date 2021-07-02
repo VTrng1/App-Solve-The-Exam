@@ -2,4 +2,8 @@
     <string name="app_name">App-Solve-The-Exam</string>
     <string name="login_email_hint">Email</string>
     <string name="login_password_hint">Mật khẩu</string>
+    <string name="username">Enter Your Name</string>
+    <string name="save">Lưu</string>
+    <string name="save">Lưu</string>
+    <string name="name">Điền tên bạn vào</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.app_sovle_the_exam
+package com.example.app_solve_the_exam
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
