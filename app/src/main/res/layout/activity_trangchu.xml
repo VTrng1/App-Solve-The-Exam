@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:label="@string/app_name">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/register_bk_color"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:text="Solve The Exam"
+                android:textColor="@color/whiteTextColor"
+                android:textSize="50dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:layout_width="332dp"
+                android:layout_height="230dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="120dp"
+                android:layout_marginRight="41dp"
+                android:src="@drawable/ic_login_hero" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/buttonLogin"
+                style="@style/loginButton"
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:text="Đăng Nhập"
+                android:textStyle="bold"
+                android:textSize="25dp"
+
+                >
+
+
+            </Button>
+
+            <Button
+                style="@style/loginButton"
+                android:id="@+id/cirRegisterButton"
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonLogin"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:text="Đăng kí"
+                android:textStyle="bold"
+                android:textSize="25dp">
+
+
+            </Button>
+
+            <TextView
+                android:id="@+id/design_bottom_sheet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cirRegisterButton"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="109dp"
+                android:text="Design By Banana "
+                android:textColor="@color/whiteTextColor"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_below="@+id/cirRegisterButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_facebook" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_google_plus" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
