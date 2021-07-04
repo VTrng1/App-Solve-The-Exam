@@ -23,7 +23,7 @@
                 android:text="Chúng ta \ncùng học nào"
                 android:textStyle="bold"
                 android:textColor="@color/whiteTextColor"
-                android:textSize="25dp"
+                android:textSize="35dp"
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="bottom">
             </TextView>
@@ -54,7 +54,7 @@
                     android:cropToPadding="true"
                     android:layout_centerVertical="true"
                     android:padding="10dp"
-                    android:maxHeight="90dp"
+                    android:maxHeight="100dp"
                     android:src="@drawable/home_ic_maths">
                 </ImageView>
                 <TextView
@@ -63,41 +63,12 @@
                     android:paddingTop="10dp"
                     android:textColor="@color/whiteTextColor"
                     android:layout_alignParentTop="true"
-                    android:textSize="25dp"
+                    android:textSize="30dp"
                     android:textStyle="bold"
                     android:text="Giải đề">
                 </TextView>
             </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_margin="5dp"
-                android:minHeight="100dp"
-                android:background="@drawable/home_gradient_physics"
-                android:padding="10dp">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
-                    android:layout_centerVertical="true"
-                    android:padding="10dp"
-                    android:maxHeight="90dp"
-                    android:src="@drawable/home_ic_physics">
-                </ImageView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:paddingTop="10dp"
-                    android:textColor="@color/whiteTextColor"
-                    android:layout_alignParentTop="true"
-                    android:textSize="25dp"
-                    android:textStyle="bold"
-                    android:text="Minigame">
-                </TextView>
-            </RelativeLayout>
+
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -120,7 +91,7 @@
                     android:cropToPadding="true"
                     android:layout_centerVertical="true"
                     android:padding="10dp"
-                    android:maxHeight="90dp"
+                    android:maxHeight="100dp"
                     android:src="@drawable/home_ic_chemistry">
                 </ImageView>
                 <TextView
@@ -129,41 +100,12 @@
                     android:paddingTop="10dp"
                     android:textColor="@color/whiteTextColor"
                     android:layout_alignParentTop="true"
-                    android:textSize="25dp"
+                    android:textSize="30dp"
                     android:textStyle="bold"
                     android:text="Q&amp;A">
                 </TextView>
             </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_margin="5dp"
-                android:minHeight="100dp"
-                android:background="@drawable/home_gradient_biology"
-                android:padding="10dp">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
-                    android:layout_centerVertical="true"
-                    android:padding="10dp"
-                    android:maxHeight="90dp"
-                    android:src="@drawable/home_ic_biology">
-                </ImageView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:paddingTop="10dp"
-                    android:textColor="@color/whiteTextColor"
-                    android:layout_alignParentTop="true"
-                    android:textSize="25dp"
-                    android:textStyle="bold"
-                    android:text="Sinh học">
-                </TextView>
-            </RelativeLayout>
+
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -186,7 +128,7 @@
                     android:cropToPadding="true"
                     android:layout_centerVertical="true"
                     android:padding="10dp"
-                    android:maxHeight="90dp"
+                    android:maxHeight="100dp"
                     android:src="@drawable/home_ic_geography">
                 </ImageView>
                 <TextView
@@ -195,41 +137,12 @@
                     android:paddingTop="10dp"
                     android:textColor="@color/whiteTextColor"
                     android:layout_alignParentTop="true"
-                    android:textSize="25dp"
+                    android:textSize="30dp"
                     android:textStyle="bold"
-                    android:text="Địa lý">
+                    android:text="Mini game">
                 </TextView>
             </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_margin="5dp"
-                android:minHeight="100dp"
-                android:background="@drawable/home_gradient_politics"
-                android:padding="10dp">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
-                    android:layout_centerVertical="true"
-                    android:padding="10dp"
-                    android:maxHeight="90dp"
-                    android:src="@drawable/home_ic_chemistry">
-                </ImageView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:paddingTop="10dp"
-                    android:textColor="@color/whiteTextColor"
-                    android:layout_alignParentTop="true"
-                    android:textSize="25dp"
-                    android:textStyle="bold"
-                    android:text="Chính trị">
-                </TextView>
-            </RelativeLayout>
+
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
