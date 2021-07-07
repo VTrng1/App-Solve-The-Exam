@@ -50,7 +50,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:layout_weightSum="6">
+                android:weightSum="6"
+                tools:ignore="UselessParent">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
