@@ -1,3 +1,5 @@
+@file:Suppress("UNUSED_PARAMETER")
+
 package com.example.app_solve_the_exam
 
 import android.content.Intent
@@ -58,5 +60,6 @@ class LoginActivity : AppCompatActivity() {
     fun onLoginClick(view: View) {
         val intent = Intent(this, RegisterActivity::class.java)
         startActivity(intent)
+        finish()
     }
 }

@@ -1,4 +1,4 @@
-@file:Suppress("NAME_SHADOWING")
+@file:Suppress("NAME_SHADOWING", "UNUSED_PARAMETER")
 
 package com.example.app_solve_the_exam
 

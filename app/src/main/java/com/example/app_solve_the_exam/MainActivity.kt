@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val homeActivity = HomeActivity()
-        val profileUser = ProfileUser()
+        val profileActivity = ProfileActivity()
         val menuActivity = MenuActivity()
 
         setCurrentFragment(menuActivity)
@@ -19,19 +19,17 @@ class MainActivity : AppCompatActivity() {
         bottom_navigation.setOnNavigationItemSelectedListener {
             when(it.itemId){
                 R.id.navigationHome->setCurrentFragment(homeActivity)
-                R.id.navigationMyProfile->setCurrentFragment(profileUser)
+                R.id.navigationMyProfile->setCurrentFragment(profileActivity)
                 R.id.navigationMenu->setCurrentFragment(menuActivity)
-
             }
             true
         }
-
     }
 
-    private fun setCurrentFragment(fragment:Fragment)=
+
+    private fun setCurrentFragment(fragment: Fragment)=
         supportFragmentManager.beginTransaction().apply {
             replace(R.id.flFragment,fragment)
             commit()
         }
-
 }

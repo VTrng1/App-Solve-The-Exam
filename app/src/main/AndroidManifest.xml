@@ -18,7 +18,7 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.AppSolveTheExam">
         <activity
-            android:name="com.example.app_solve_the_exam.RegisterActivity"
+            android:name="com.example.app_solve_the_exam.LoginActivity"
             android:theme="@style/Theme.AppSolveTheExam">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,11 +27,12 @@
         </activity>
 
         <activity
-            android:name="com.example.app_solve_the_exam.LoginActivity"
+            android:name="com.example.app_solve_the_exam.RegisterActivity"
             android:theme="@style/Theme.AppSolveTheExam" />
         <activity
             android:name="com.example.app_solve_the_exam.MainActivity"
             android:theme="@style/Theme.AppSolveTheExam" />
+
 <!--        <activity-->
 <!--            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"-->
 <!--            android:theme="@style/Base.Theme.AppCompat" />-->
