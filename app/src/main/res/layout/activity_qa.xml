@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9933"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:label="@string/app_name"
+    android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4.5">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hỏi và Đáp"
+            android:textSize="60dp"
+            android:textStyle="bold"
+
+            android:gravity="center">
+
+        </TextView>
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+        <EditText
+            android:id="@+id/Fine"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="Nhập câu hỏi">
+
+        </EditText>
+
+        <Button
+            android:layout_below="@+id/Fine"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="15dp"
+            android:text="Tìm kiếm"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </Button>
+        <TextView
+            android:layout_below="@+id/Fine"
+            style="@style/viewParent"
+            android:layout_gravity="end"
+            android:layout_marginTop="15dp"
+            android:text="Thêm câu hỏi! "
+            android:textColor="#000011"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/bg"
+            android:layout_margin="15dp">
+
+            <EditText
+                android:id="@+id/editTextName1"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:text="Chỗ này là câu hỏi"
+               >
+
+            </EditText>
+            <ImageView
+                android:id="@+id/tim1"
+                android:layout_below="@+id/editTextName1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/tim"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="15dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_below="@+id/editTextName1"
+                android:layout_toRightOf="@+id/tim1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/comment"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="45dp">
+
+            </ImageView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/bg"
+            android:layout_margin="15dp">
+            <EditText
+                android:id="@+id/editTextName2"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:text="Chỗ này là câu hỏi"
+                >
+
+            </EditText>
+            <ImageView
+                android:id="@+id/tim2"
+                android:layout_below="@+id/editTextName2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/tim"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="15dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_below="@+id/editTextName2"
+                android:layout_toRightOf="@+id/tim2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/comment"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="45dp">
+
+            </ImageView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/bg"
+            android:layout_margin="15dp">
+            <EditText
+                android:id="@+id/editTextName3"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:text="Chỗ này là câu hỏi"
+                >
+
+            </EditText>
+            <ImageView
+                android:id="@+id/tim3"
+                android:layout_below="@+id/editTextName3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/tim"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="15dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_below="@+id/editTextName3"
+                android:layout_toRightOf="@+id/tim3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/comment"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="45dp">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="?android:attr/windowBackground"
+            android:foreground="?attr/selectableItemBackground"
+            app:menu="@menu/master_bottom_navigation"
+            app:elevation="10dp"
+            app:labelVisibilityMode="labeled"
+            app:itemIconTint="@color/bottom_navigation_color"
+            app:itemTextColor="@color/bottom_navigation_color"
+            app:itemBackground="@color/bottomNavigationBackground"/>
+    </LinearLayout>
+
+</LinearLayout>
