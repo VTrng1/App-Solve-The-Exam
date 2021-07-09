@@ -42,7 +42,7 @@
                 style="@style/parent"
                 android:layout_marginTop="@dimen/loginViewsMargin">
                 <EditText
-                    android:id="@+id/editTextEmail"
+                    android:id="@+id/email_login"
                     style="@style/modifiedEditText"
                     android:hint="@string/login_email_hint"
                     android:inputType="textEmailAddress"
@@ -53,7 +53,7 @@
                 style="@style/parent"
                 android:layout_marginTop="@dimen/loginViewsMargin">
                 <EditText
-                    android:id="@+id/editTextPassword"
+                    android:id="@+id/password_login"
                     style="@style/modifiedEditText"
                     android:hint="@string/login_password_hint"
                     android:inputType="textPassword"
@@ -66,18 +66,14 @@
                 android:text="Quên mật khẩu?"
                 android:textColor="@color/primaryTextColor1"
                 android:textSize="@dimen/newsMoreTextSize" />
-            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
-                android:id="@+id/cirLoginButton"
+            <Button
+                android:id="@+id/login_button"
                 style="@style/loginButton"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/loginViewsMargin"
                 android:text="Đăng nhập"
                 android:gravity="center"
-                android:textSize="15dp"
-                app:initialCornerAngle="27dp"
-                app:spinning_bar_color="#FFF"
-                app:spinning_bar_padding="6dp"
-                app:spinning_bar_width="4dp" />
+                android:textSize="15dp"/>
             <TextView
                 style="@style/parent"
                 android:layout_marginTop="@dimen/loginViewsMargin"

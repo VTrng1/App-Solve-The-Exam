@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.example.app_solve_the_exam
 
 import android.annotation.SuppressLint
@@ -21,7 +23,7 @@ class SetupActivity : AppCompatActivity() {
             //check runtime permission
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 if (checkSelfPermission(android.Manifest.permission.READ_EXTERNAL_STORAGE) ==
-                        PackageManager.PERMISSION_DENIED){
+                    PackageManager.PERMISSION_DENIED){
                     //permission denied
                     val permissions = arrayOf(android.Manifest.permission.READ_EXTERNAL_STORAGE);
 
@@ -62,7 +64,7 @@ class SetupActivity : AppCompatActivity() {
         when (requestCode){
             PERMISSION_CODE -> {
                 if (grantResults.size > 0 && grantResults[0] ==
-                        PackageManager.PERMISSION_GRANTED){
+                    PackageManager.PERMISSION_GRANTED){
                     pickImageFromGallery();
                 }
                 else{

@@ -68,36 +68,20 @@
             android:orientation="horizontal">
             <Button
                 android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/save"
-                android:layout_marginLeft="150dp"
-                android:layout_marginRight="150dp"
-                android:layout_marginTop="25dp"
+                android:textSize="15dp"
+                android:padding="15dp"/>
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Đăng xuất"
                 android:textSize="15dp"
                 android:padding="15dp"/>
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <com.google.android.material.bottomnavigation.BottomNavigationView
-                android:id="@+id/navigation"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:background="?android:attr/windowBackground"
-                android:foreground="?attr/selectableItemBackground"
-                app:menu="@menu/master_bottom_navigation"
-                app:elevation="10dp"
-                app:labelVisibilityMode="labeled"
-                app:itemIconTint="@color/bottom_navigation_color"
-                app:itemTextColor="@color/bottom_navigation_color"
-                app:itemBackground="@color/bottomNavigationBackground"/>
-        </LinearLayout>
     </LinearLayout>
-
-
 </LinearLayout>

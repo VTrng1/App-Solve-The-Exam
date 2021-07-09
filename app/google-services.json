@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "294745206483",
-    "project_id": "app-solve-the-exam",
-    "storage_bucket": "app-solve-the-exam.appspot.com"
+    "project_number": "190431901192",
+    "firebase_url": "https://app-solve-the-exam-3b58c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "app-solve-the-exam-3b58c",
+    "storage_bucket": "app-solve-the-exam-3b58c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:294745206483:android:df0de466bbabc4e7362e26",
+        "mobilesdk_app_id": "1:190431901192:android:440b0928454090792843bd",
         "android_client_info": {
-          "package_name": "com.example.app_sovle_the_exam"
+          "package_name": "com.example.app_solve_the_exam"
         }
       },
       "oauth_client": [
         {
-          "client_id": "294745206483-m6avupiuk0ra5190d90vhgplaak9ebcm.apps.googleusercontent.com",
+          "client_id": "190431901192-vfk7qnfi61e9tp546eami3u9etrgktks.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDlp_FwC4WLd1-kXqyPibSR-oWg7MeOHoc"
+          "current_key": "AIzaSyAeyTkWGXH_ly3JSj49hlNStwa_kQqaTBQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "294745206483-m6avupiuk0ra5190d90vhgplaak9ebcm.apps.googleusercontent.com",
+              "client_id": "190431901192-vfk7qnfi61e9tp546eami3u9etrgktks.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
