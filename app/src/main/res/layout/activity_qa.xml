@@ -97,11 +97,22 @@
 
             </ImageView>
             <ImageView
+                android:id="@+id/comment1"
                 android:layout_below="@+id/editTextName1"
                 android:layout_toRightOf="@+id/tim1"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:src="@drawable/comment"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="45dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_below="@+id/editTextName1"
+                android:layout_toRightOf="@+id/comment1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/save"
                 android:layout_marginTop="12dp"
                 android:layout_marginLeft="45dp">
 
@@ -135,11 +146,22 @@
 
             </ImageView>
             <ImageView
+                android:id="@+id/comment2"
                 android:layout_below="@+id/editTextName2"
                 android:layout_toRightOf="@+id/tim2"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:src="@drawable/comment"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="45dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_below="@+id/editTextName2"
+                android:layout_toRightOf="@+id/comment2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/save"
                 android:layout_marginTop="12dp"
                 android:layout_marginLeft="45dp">
 
@@ -173,11 +195,22 @@
 
             </ImageView>
             <ImageView
+                android:id="@+id/comment3"
                 android:layout_below="@+id/editTextName3"
                 android:layout_toRightOf="@+id/tim3"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:src="@drawable/comment"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="45dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_below="@+id/editTextName3"
+                android:layout_toRightOf="@+id/comment3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/save"
                 android:layout_marginTop="12dp"
                 android:layout_marginLeft="45dp">
 
