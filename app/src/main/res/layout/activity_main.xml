@@ -226,7 +226,8 @@
                     android:layout_centerVertical="true"
                     android:padding="10dp"
                     android:maxHeight="100dp"
-                    android:src="@drawable/home_ic_blog">
+                    android:src="@drawable/home_ic_blog"
+                    android:onClick="onClickDocument">
                 </ImageView>
                 <TextView
                     android:layout_width="match_parent"
@@ -236,7 +237,8 @@
                     android:layout_alignParentTop="true"
                     android:textSize="30dp"
                     android:textStyle="bold"
-                    android:text="Tài liệu">
+                    android:text="Tài liệu"
+                    android:onClick="onClickDocument">
                 </TextView>
             </RelativeLayout>
         </LinearLayout>

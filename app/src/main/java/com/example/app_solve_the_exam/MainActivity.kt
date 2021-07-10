@@ -50,4 +50,9 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
         finish()
     }
+    fun onClickDocument(view: View) {
+        val intent = Intent(this@MainActivity, DocumentActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
 }

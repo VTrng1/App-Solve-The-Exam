@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gradientLightYellow2"
+    android:focusableInTouchMode="true"
+    tools:context=".DocumentActivity">
+    <!--tools:context=".DocumentActivity">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tài liệu tham khảo"
+                android:textStyle="bold"
+                android:textSize="45dp"
+                android:textAlignment="center"
+                android:textColor="@color/whiteTextColor"
+                android:background="@drawable/home_gradient_content">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/colorPink">
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:text="Ngôn ngữ Java"
+            android:textColor="@color/white"
+            android:background="@drawable/home_gradient_qa">
+        </Button>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:text="Ngôn ngữ Kotlin"
+                android:textColor="@color/white"
+                android:background="@drawable/home_gradient_content">
+            </Button>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:text="Ngôn ngữ C++"
+                android:textColor="@color/white"
+                android:background="@drawable/home_gradient_user">
+            </Button>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:text="Ngôn ngữ C-shrap"
+                android:textColor="@color/white"
+                android:background="@drawable/home_gradient_content">
+            </Button>
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:text="Ngôn ngữ Python"
+                    android:textColor="@color/white"
+                    android:background="@drawable/home_gradient_qa">
+                </Button>
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="11dp"
+            android:layout_marginBottom="30dp"
+            android:adjustViewBounds="false"
+            android:onClick="onClickMain"
+            android:src="@drawable/ic_back_img" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
