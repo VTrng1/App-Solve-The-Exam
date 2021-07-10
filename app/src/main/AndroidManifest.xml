@@ -38,5 +38,8 @@
         <activity
             android:name="com.example.app_solve_the_exam.DocumentActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.app_solve_the_exam.ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 </manifest>

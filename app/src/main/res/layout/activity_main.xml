@@ -87,7 +87,8 @@
                     android:layout_centerVertical="true"
                     android:padding="10dp"
                     android:maxHeight="100dp"
-                    android:src="@drawable/home_ic_user">
+                    android:src="@drawable/home_ic_user"
+                    android:onClick="onClickProfile">
                 </ImageView>
                 <TextView
                     android:layout_width="match_parent"
@@ -97,7 +98,8 @@
                     android:layout_alignParentTop="true"
                     android:textSize="30dp"
                     android:textStyle="bold"
-                    android:text="Tài khoản">
+                    android:text="Tài khoản"
+                    android:onClick="onClickProfile">
                 </TextView>
             </RelativeLayout>
         </LinearLayout>

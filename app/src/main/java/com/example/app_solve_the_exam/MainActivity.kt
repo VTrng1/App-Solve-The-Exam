@@ -55,4 +55,9 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
         finish()
     }
+    fun onClickProfile(view: View) {
+        val intent = Intent(this@MainActivity, ProfileActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
 }
