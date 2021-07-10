@@ -4,12 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FF9933"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:label="@string/app_name"
     android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
     tools:context=".MainActivity"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -20,12 +18,8 @@
             android:text="Hỏi và Đáp"
             android:textSize="60dp"
             android:textStyle="bold"
-
             android:gravity="center">
-
         </TextView>
-
-
     </LinearLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -39,9 +33,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="30dp"
             android:text="Nhập câu hỏi">
-
         </EditText>
-
         <Button
             android:layout_below="@+id/Fine"
             android:layout_width="150dp"
@@ -51,7 +43,6 @@
             android:text="Tìm kiếm"
             android:textSize="20dp"
             android:textStyle="bold">
-
         </Button>
         <TextView
             android:layout_below="@+id/Fine"
@@ -62,7 +53,6 @@
             android:textColor="#000011"
             android:textSize="25dp"
             android:layout_marginLeft="20dp"/>
-
     </RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -76,15 +66,12 @@
             android:backgroundTint="@color/white"
             android:background="@drawable/bg"
             android:layout_margin="15dp">
-
             <EditText
                 android:id="@+id/editTextName1"
                 android:layout_width="350dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="15dp"
-                android:text="Chỗ này là câu hỏi"
-               >
-
+                android:text="Chỗ này là câu hỏi">
             </EditText>
             <ImageView
                 android:id="@+id/tim1"
@@ -94,7 +81,6 @@
                 android:src="@drawable/tim"
                 android:layout_marginTop="12dp"
                 android:layout_marginLeft="15dp">
-
             </ImageView>
             <ImageView
                 android:id="@+id/comment1"
@@ -105,7 +91,6 @@
                 android:src="@drawable/comment"
                 android:layout_marginTop="12dp"
                 android:layout_marginLeft="45dp">
-
             </ImageView>
             <ImageView
                 android:layout_below="@+id/editTextName1"
@@ -115,9 +100,7 @@
                 android:src="@drawable/save"
                 android:layout_marginTop="12dp"
                 android:layout_marginLeft="45dp">
-
             </ImageView>
-
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
@@ -131,9 +114,7 @@
                 android:layout_width="350dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="15dp"
-                android:text="Chỗ này là câu hỏi"
-                >
-
+                android:text="Chỗ này là câu hỏi">
             </EditText>
             <ImageView
                 android:id="@+id/tim2"
@@ -143,7 +124,6 @@
                 android:src="@drawable/tim"
                 android:layout_marginTop="12dp"
                 android:layout_marginLeft="15dp">
-
             </ImageView>
             <ImageView
                 android:id="@+id/comment2"
@@ -154,7 +134,6 @@
                 android:src="@drawable/comment"
                 android:layout_marginTop="12dp"
                 android:layout_marginLeft="45dp">
-
             </ImageView>
             <ImageView
                 android:layout_below="@+id/editTextName2"
@@ -164,9 +143,7 @@
                 android:src="@drawable/save"
                 android:layout_marginTop="12dp"
                 android:layout_marginLeft="45dp">
-
             </ImageView>
-
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
@@ -180,9 +157,7 @@
                 android:layout_width="350dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="15dp"
-                android:text="Chỗ này là câu hỏi"
-                >
-
+                android:text="Chỗ này là câu hỏi">
             </EditText>
             <ImageView
                 android:id="@+id/tim3"
@@ -192,7 +167,6 @@
                 android:src="@drawable/tim"
                 android:layout_marginTop="12dp"
                 android:layout_marginLeft="15dp">
-
             </ImageView>
             <ImageView
                 android:id="@+id/comment3"
@@ -203,7 +177,6 @@
                 android:src="@drawable/comment"
                 android:layout_marginTop="12dp"
                 android:layout_marginLeft="45dp">
-
             </ImageView>
             <ImageView
                 android:layout_below="@+id/editTextName3"
@@ -213,29 +186,7 @@
                 android:src="@drawable/save"
                 android:layout_marginTop="12dp"
                 android:layout_marginLeft="45dp">
-
             </ImageView>
-
         </RelativeLayout>
-
-
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/navigation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:background="?android:attr/windowBackground"
-            android:foreground="?attr/selectableItemBackground"
-            app:elevation="10dp"
-            app:labelVisibilityMode="labeled"
-            app:itemIconTint="@color/bottom_navigation_color"
-            app:itemTextColor="@color/bottom_navigation_color"
-            app:itemBackground="@color/bottomNavigationBackground"/>
-    </LinearLayout>
-
 </LinearLayout>
