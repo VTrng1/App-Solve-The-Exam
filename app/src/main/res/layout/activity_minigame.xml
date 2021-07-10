@@ -108,7 +108,6 @@
                 android:layout_gravity="bottom"
                 android:background="?android:attr/windowBackground"
                 android:foreground="?attr/selectableItemBackground"
-                app:menu="@menu/master_bottom_navigation"
                 app:elevation="10dp"
                 app:labelVisibilityMode="labeled"
                 app:itemIconTint="@color/bottom_navigation_color"
