@@ -39,30 +39,28 @@ class RegisterActivity : AppCompatActivity() {
         val password: String = password_register.text.toString()
 
         if (fullname == "") {
-            Toast.makeText(this@RegisterActivity, "Vui lòng nhập họ và tên.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this@RegisterActivity, "Please enter your full name.", Toast.LENGTH_LONG).show()
         }
         else if (phonenumber == "") {
-            Toast.makeText(this@RegisterActivity, "Vui lòng nhập số điện thoại.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this@RegisterActivity, "Please enter your phone number.", Toast.LENGTH_LONG).show()
         }
         else if (username == "") {
-            Toast.makeText(this@RegisterActivity, "Vui lòng nhập tài khoản.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this@RegisterActivity, "Please enter your username.", Toast.LENGTH_LONG).show()
         }
         else if (email == "") {
-            Toast.makeText(this@RegisterActivity, "Vui lòng nhập email.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this@RegisterActivity, "Please enter your email.", Toast.LENGTH_LONG).show()
         }
         else if (password == "") {
-            Toast.makeText(this@RegisterActivity, "Vui lòng nhập mật khẩu.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this@RegisterActivity, "Please enter your password.", Toast.LENGTH_LONG).show()
         }
         else {
             mAuth.createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener { task ->
+                .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
                         firebaseUserID = mAuth.currentUser!!.uid
                         refUsers = FirebaseDatabase.getInstance().reference.child("Users").child(firebaseUserID)
-
                         val userHashMap = HashMap<String, Any>()
                         userHashMap["uid"] = firebaseUserID
-                        userHashMap["fullname"] = fullname
                         userHashMap["username"] = username
                         userHashMap["profile"] = "https://firebasestorage.googleapis.com/v0/b/app-solve-the-exam-3b58c.appspot.com/o/userphoto.png?alt=media&token=7562aa62-1799-4dcc-bc19-fa066bf4b032"
                         userHashMap["cover"] = "https://firebasestorage.googleapis.com/v0/b/app-solve-the-exam-3b58c.appspot.com/o/cover.jpg?alt=media&token=4267dae0-c3b2-4c70-8fd1-22c0f3cd7c0d"
@@ -72,8 +70,9 @@ class RegisterActivity : AppCompatActivity() {
                         userHashMap["website"] = "https://www.google.com"
 
                         refUsers.updateChildren(userHashMap)
-                            .addOnCompleteListener { task ->
+                            .addOnCompleteListener(this) { task ->
                                 if (task.isSuccessful) {
+                                    Toast.makeText(this@RegisterActivity, "Register Complete", Toast.LENGTH_LONG).show()
                                     val intent = Intent(this@RegisterActivity, MainActivity::class.java)
                                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
                                     startActivity(intent)

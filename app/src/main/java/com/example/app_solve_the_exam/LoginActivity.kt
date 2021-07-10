@@ -71,10 +71,10 @@ class LoginActivity : AppCompatActivity() {
         val password: String = password_login.text.toString()
 
         if (email == "") {
-            Toast.makeText(this@LoginActivity, "Vui lòng nhập email.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this@LoginActivity, "Please enter your email.", Toast.LENGTH_LONG).show()
         }
         else if (password == "") {
-            Toast.makeText(this@LoginActivity, "Vui lòng nhập mật khẩu.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this@LoginActivity, "Please enter your password.", Toast.LENGTH_LONG).show()
         }
         else {
             mAuth.signInWithEmailAndPassword(email, password)

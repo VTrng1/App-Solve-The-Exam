@@ -10,13 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@color/register_bk_color">
+        android:background="@color/themeColor">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_weight="2"
             android:paddingBottom="10dp">
             <TextView
+                android:id="@+id/textHello"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Chúng ta \ncùng học nào"
@@ -43,7 +44,7 @@
                 android:layout_weight="1"
                 android:layout_margin="5dp"
                 android:minHeight="100dp"
-                android:background="@drawable/home_gradient_maths"
+                android:background="@drawable/home_gradient_blog"
                 android:padding="10dp">
                 <ImageView
                     android:layout_width="wrap_content"
@@ -54,7 +55,8 @@
                     android:layout_centerVertical="true"
                     android:padding="10dp"
                     android:maxHeight="100dp"
-                    android:src="@drawable/home_ic_maths">
+                    android:src="@drawable/home_ic_blog"
+                    android:onClick="onClickBlog">
                 </ImageView>
                 <TextView
                     android:layout_width="match_parent"
@@ -64,7 +66,8 @@
                     android:layout_alignParentTop="true"
                     android:textSize="30dp"
                     android:textStyle="bold"
-                    android:text="Giải đề">
+                    android:text="Blog"
+                    android:onClick="onClickBlog">
                 </TextView>
             </RelativeLayout>
             <RelativeLayout
@@ -73,7 +76,7 @@
                 android:layout_weight="1"
                 android:layout_margin="5dp"
                 android:minHeight="100dp"
-                android:background="@drawable/home_gradient_maths"
+                android:background="@drawable/home_gradient_user"
                 android:padding="10dp">
                 <ImageView
                     android:layout_width="wrap_content"
@@ -84,7 +87,7 @@
                     android:layout_centerVertical="true"
                     android:padding="10dp"
                     android:maxHeight="100dp"
-                    android:src="@drawable/home_ic_maths">
+                    android:src="@drawable/home_ic_user">
                 </ImageView>
                 <TextView
                     android:layout_width="match_parent"
@@ -94,7 +97,7 @@
                     android:layout_alignParentTop="true"
                     android:textSize="30dp"
                     android:textStyle="bold"
-                    android:text="Giải đề">
+                    android:text="Tài khoản">
                 </TextView>
             </RelativeLayout>
         </LinearLayout>
@@ -109,7 +112,7 @@
                 android:layout_weight="1"
                 android:layout_margin="5dp"
                 android:minHeight="100dp"
-                android:background="@drawable/home_gradient_chemistry"
+                android:background="@drawable/home_gradient_qa"
                 android:padding="10dp">
                 <ImageView
                     android:layout_width="wrap_content"
@@ -120,7 +123,8 @@
                     android:layout_centerVertical="true"
                     android:padding="10dp"
                     android:maxHeight="100dp"
-                    android:src="@drawable/home_ic_chemistry">
+                    android:src="@drawable/home_ic_qa"
+                    android:onClick="onClickQA">
                 </ImageView>
                 <TextView
                     android:layout_width="match_parent"
@@ -130,7 +134,8 @@
                     android:layout_alignParentTop="true"
                     android:textSize="30dp"
                     android:textStyle="bold"
-                    android:text="Q&amp;A">
+                    android:text="Q&amp;A"
+                    android:onClick="onClickQA">
                 </TextView>
             </RelativeLayout>
             <RelativeLayout
@@ -139,7 +144,7 @@
                 android:layout_weight="1"
                 android:layout_margin="5dp"
                 android:minHeight="100dp"
-                android:background="@drawable/home_gradient_maths"
+                android:background="@drawable/home_gradient_introduce"
                 android:padding="10dp">
                 <ImageView
                     android:layout_width="wrap_content"
@@ -150,7 +155,8 @@
                     android:layout_centerVertical="true"
                     android:padding="10dp"
                     android:maxHeight="100dp"
-                    android:src="@drawable/home_ic_maths">
+                    android:src="@drawable/home_ic_introduce"
+                    android:onClick="onClickIntroduce">
                 </ImageView>
                 <TextView
                     android:layout_width="match_parent"
@@ -160,7 +166,8 @@
                     android:layout_alignParentTop="true"
                     android:textSize="30dp"
                     android:textStyle="bold"
-                    android:text="Giải đề">
+                    android:text="Giới thiệu"
+                    android:onClick="onClickIntroduce">
                 </TextView>
             </RelativeLayout>
 
@@ -176,7 +183,7 @@
                 android:layout_weight="1"
                 android:layout_margin="5dp"
                 android:minHeight="100dp"
-                android:background="@drawable/home_gradient_geography"
+                android:background="@drawable/home_gradient_minigame"
                 android:padding="10dp">
                 <ImageView
                     android:layout_width="wrap_content"
@@ -187,7 +194,8 @@
                     android:layout_centerVertical="true"
                     android:padding="10dp"
                     android:maxHeight="100dp"
-                    android:src="@drawable/home_ic_geography">
+                    android:src="@drawable/home_ic_minigame"
+                    android:onClick="onClickMinigame">
                 </ImageView>
                 <TextView
                     android:layout_width="match_parent"
@@ -197,7 +205,8 @@
                     android:layout_alignParentTop="true"
                     android:textSize="30dp"
                     android:textStyle="bold"
-                    android:text="Mini game">
+                    android:text="Mini game"
+                    android:onClick="onClickMinigame">
                 </TextView>
             </RelativeLayout>
             <RelativeLayout
@@ -206,7 +215,7 @@
                 android:layout_weight="1"
                 android:layout_margin="5dp"
                 android:minHeight="100dp"
-                android:background="@drawable/home_gradient_maths"
+                android:background="@drawable/home_gradient_document"
                 android:padding="10dp">
                 <ImageView
                     android:layout_width="wrap_content"
@@ -217,7 +226,7 @@
                     android:layout_centerVertical="true"
                     android:padding="10dp"
                     android:maxHeight="100dp"
-                    android:src="@drawable/home_ic_maths">
+                    android:src="@drawable/home_ic_blog">
                 </ImageView>
                 <TextView
                     android:layout_width="match_parent"
@@ -227,12 +236,12 @@
                     android:layout_alignParentTop="true"
                     android:textSize="30dp"
                     android:textStyle="bold"
-                    android:text="Giải đề">
+                    android:text="Tài liệu">
                 </TextView>
             </RelativeLayout>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_gravity="center"
@@ -242,12 +251,10 @@
                     android:id="@+id/btn_signOut"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingTop="10dp"
-                    android:textColor="@color/whiteTextColor"
-                    android:layout_alignParentTop="true"
                     android:textSize="20dp"
                     android:layout_gravity="center"
                     android:gravity="center"
+                    style="@style/loginButton"
                     android:textAllCaps="false"
                     android:text="Đăng xuất">
                 </Button>

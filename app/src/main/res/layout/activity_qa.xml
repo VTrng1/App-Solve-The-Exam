@@ -6,16 +6,16 @@
     android:background="#FF9933"
     android:label="@string/app_name"
     android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
-    tools:context=".MainActivity"
+    tools:context=".QaActivity"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="4.5">
+        android:layout_weight="4">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Hỏi và Đáp"
+            android:text="Q&amp;A"
             android:textSize="60dp"
             android:textStyle="bold"
             android:gravity="center">
@@ -27,11 +27,9 @@
         android:layout_weight="4">
         <EditText
             android:id="@+id/Fine"
-            android:layout_width="350dp"
-            android:layout_height="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="@color/white"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="30dp"
             android:text="Nhập câu hỏi">
         </EditText>
         <Button
@@ -44,14 +42,15 @@
             android:textSize="20dp"
             android:textStyle="bold">
         </Button>
-        <TextView
+        <Button
             android:layout_below="@+id/Fine"
             style="@style/viewParent"
             android:layout_gravity="end"
             android:layout_marginTop="15dp"
-            android:text="Thêm câu hỏi! "
+            android:text="Thêm câu hỏi"
             android:textColor="#000011"
-            android:textSize="25dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:layout_marginLeft="20dp"/>
     </RelativeLayout>
     <LinearLayout
@@ -189,4 +188,14 @@
             </ImageView>
         </RelativeLayout>
     </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="30dp"
+        android:adjustViewBounds="false"
+        android:onClick="onClickMain"
+        android:src="@drawable/ic_back_img" />
 </LinearLayout>
