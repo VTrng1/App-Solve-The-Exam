@@ -58,11 +58,13 @@
                     android:inputType="textPassword"
                     android:maxLines="1" />
             </com.google.android.material.textfield.TextInputLayout>
-            <TextView
+            <Button
+                android:id="@+id/btn_forgot_password"
                 style="@style/viewParent"
                 android:layout_gravity="end"
                 android:layout_marginTop="10dp"
                 android:text="Quên mật khẩu?"
+                android:background="@color/bottom_navigation_color"
                 android:textColor="@color/primaryTextColor1"
                 android:textSize="@dimen/newsMoreTextSize" />
             <Button
