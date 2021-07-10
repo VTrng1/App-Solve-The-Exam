@@ -64,7 +64,7 @@
                 android:layout_gravity="end"
                 android:layout_marginTop="10dp"
                 android:text="Quên mật khẩu?"
-                android:background="@color/bottom_navigation_color"
+                android:background= "Transparent"
                 android:textColor="@color/primaryTextColor1"
                 android:textSize="@dimen/newsMoreTextSize" />
             <Button
