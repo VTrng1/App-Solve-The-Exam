@@ -6,7 +6,6 @@
     android:background="@color/gradientLightYellow2"
     android:focusableInTouchMode="true"
     tools:context=".DocumentActivity">
-    <!--tools:context=".DocumentActivity">-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -88,7 +87,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
             android:layout_marginRight="11dp"
-            android:layout_marginBottom="30dp"
+
             android:adjustViewBounds="false"
             android:onClick="onClickMain"
             android:src="@drawable/ic_back_img" />

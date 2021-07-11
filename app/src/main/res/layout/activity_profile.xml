@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/grad"
-        android:paddingBottom="20dp">
+        android:paddingBottom="10dp">
 
         <RelativeLayout
             android:id="@+id/imgUser"
@@ -288,7 +288,6 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
             android:layout_marginRight="1dp"
-            android:layout_marginBottom="5dp"
             android:adjustViewBounds="false"
             android:onClick="onClickMain"
             android:src="@drawable/ic_back_img" />

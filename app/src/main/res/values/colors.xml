@@ -73,5 +73,8 @@
     <color name="followersBg">#65DCE5</color>
     <color name="followingBg">#49BEFF</color>
     <color name="grey">#E5E5E5</color>
-
+    <!--color for blog-->
+    <color name="colorPrimaryBlog">#f78c94</color>
+    <color name="colorPrimaryDarkBlog">#ed828a</color>
+    <color name="colorAccentBlog">#eac958</color>
 </resources>
